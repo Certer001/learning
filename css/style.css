@@ -1,28 +1,21 @@
-h1{
-    text-shadow: -3px 5px 5px #999;  /* горизонталь, вертикаль, размытость, цвет */
-    text-align: center;
+p.test{
+    padding: 10px;
+    border: 1px solid #f53;
+    margin: 20px;
 }
 
-p{
-    line-height: 40px;
-    /* text-align: center; */
-    /* text-indent: 25px; */
-    border: 1px solid black;
-    margin-top: 30px;
-    padding-bottom: 30px;
-}
-
-h2::first-letter{
-    font-size: 40px;
-    font-weight: bold;
-    background: #000;
-    color: #fff;
-    padding: 4px;
+li{
+    display: inline;
+    margin-left: 10px;
 }
 
 ol{
-    list-style-type: square;
-    list-style-position: inside;
-    border: 1px solid black;
-    /* list-style-image: url(../img/banner.png); */
+    display: inline;
+    align-items: center;
+    border: 1px solid #f53;
+    padding-left: 0px;
+}
+
+ol li.li1{
+    margin-left: 0px;
 }
