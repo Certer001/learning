@@ -1,40 +1,51 @@
-header.header{
-    min-height: 70px;
-    border: 1px solid gray;
-    width: 100%;
-    text-align: center;
+body{
+    padding: 60px;
 }
 
-div{
-    float: left;
-    border: 1px solid gray;
+a.button{
+    border: 1px solid rgb(0, 9, 0);
+    text-decoration: none;
+    background-color: rgb(50, 50, 50);
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 1.3em;
 }
 
-div.div1{
-    width: 65%;
-    box-sizing: border-box;
+a.button:hover{
+    border: 1px solid rgb(0, 9, 0);
+    text-decoration: none;
+    background-color: rgb(222, 222, 222);
+    color: #000;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 1.3em;
 }
 
-div.div2{
-    width: 35%;
-    box-sizing: border-box;
+ul.nav{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
-div.div3{
-    width: 33.3%;
-    box-sizing: border-box;
-}
-div.div4{
-    width: 33.3%;
-    box-sizing: border-box;
-}
-div.div5{
-    width: 33.3%;
-    box-sizing: border-box;
+ul.nav li{
+    display: inline;
 }
 
-footer.footer{
-    width: 100%;
-    border: 1px solid gray;
-    text-align: center;
+ul.nav li a{
+    border: 1px solid rgb(0, 9, 0);
+    text-decoration: none;
+    background-color: rgb(50, 50, 50);
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+ul.nav li a:hover{
+    border: 1px solid rgb(0, 9, 0);
+    text-decoration: none;
+    background-color: rgb(222, 222, 222);
+    color: #000;
+    padding: 5px;
+    border-radius: 4px;
 }
