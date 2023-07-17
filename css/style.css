@@ -1,21 +1,40 @@
-p.test{
-    padding: 10px;
-    border: 1px solid #f53;
-    margin: 20px;
+header.header{
+    min-height: 70px;
+    border: 1px solid gray;
+    width: 100%;
+    text-align: center;
 }
 
-li{
-    display: inline;
-    margin-left: 10px;
+div{
+    float: left;
+    border: 1px solid gray;
 }
 
-ol{
-    display: inline;
-    align-items: center;
-    border: 1px solid #f53;
-    padding-left: 0px;
+div.div1{
+    width: 65%;
+    box-sizing: border-box;
 }
 
-ol li.li1{
-    margin-left: 0px;
+div.div2{
+    width: 35%;
+    box-sizing: border-box;
+}
+
+div.div3{
+    width: 33.3%;
+    box-sizing: border-box;
+}
+div.div4{
+    width: 33.3%;
+    box-sizing: border-box;
+}
+div.div5{
+    width: 33.3%;
+    box-sizing: border-box;
+}
+
+footer.footer{
+    width: 100%;
+    border: 1px solid gray;
+    text-align: center;
 }
